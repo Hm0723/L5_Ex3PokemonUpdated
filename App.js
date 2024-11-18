@@ -94,7 +94,7 @@ const App = () => {
                 <Text style={styles.addButtonText}>ADD POKEMON</Text>
             </TouchableOpacity>
             <SectionList
-                sections={pokemonData} // Directly pass the array
+                sections={pokemonData}
                 renderItem={renderItem}
                 renderSectionHeader={renderSectionHeader}
             />
